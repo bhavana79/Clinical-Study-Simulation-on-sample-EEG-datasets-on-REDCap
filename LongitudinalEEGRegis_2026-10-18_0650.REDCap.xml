@@ -1,0 +1,1745 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Longitudinal EEG Registry" AsOfDateTime="2026-10-18T06:50:59" CreationDateTime="2026-10-18T06:50:59" SourceSystem="REDCap" SourceSystemVersion="17.5.3">
+<Study OID="Project.LongitudinalEEGRegistry">
+<GlobalVariables>
+	<StudyName>Longitudinal EEG Registry</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "Longitudinal EEG Registry".</StudyDescription>
+	<ProtocolName>Longitudinal EEG Registry</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SecondaryUniqueFieldDisplayValue>1</redcap:SecondaryUniqueFieldDisplayValue>
+	<redcap:SecondaryUniqueFieldDisplayLabel>1</redcap:SecondaryUniqueFieldDisplayLabel>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>0</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:SurveyParticipantIdentifiers>0</redcap:SurveyParticipantIdentifiers>
+	<redcap:RandomizationEnabled>0</redcap:RandomizationEnabled>
+	<redcap:DisplayTodayNowButton>1</redcap:DisplayTodayNowButton>
+	<redcap:PreventBranchingEraseValues>0</redcap:PreventBranchingEraseValues>
+	<redcap:RequireChangeReason>0</redcap:RequireChangeReason>
+	<redcap:DataHistoryPopup>1</redcap:DataHistoryPopup>
+	<redcap:OrderRecordsByField></redcap:OrderRecordsByField>
+	<redcap:taskCompleteStatus>2</redcap:taskCompleteStatus>
+	<redcap:DataResolutionWorkflowEnabled>1</redcap:DataResolutionWorkflowEnabled>
+	<redcap:FieldCommentLogOptionEditDelete>1</redcap:FieldCommentLogOptionEditDelete>
+	<redcap:DataResolutionWorkflowHideClosedQueries>1</redcap:DataResolutionWorkflowHideClosedQueries>
+	<redcap:MyCapEnabled>0</redcap:MyCapEnabled>
+	<redcap:Purpose>0</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes>This is just a personal project to demonstrate my knowledge on REDCap using publicly available data repositories related to EEG recordings from Parkinson&#039;s disease (PD) patients.</redcap:ProjectNotes>
+	<redcap:SurveyQueueCustomText></redcap:SurveyQueueCustomText>
+	<redcap:SurveyQueueHide>0</redcap:SurveyQueueHide>
+	<redcap:SurveyAuthEnabled>0</redcap:SurveyAuthEnabled>
+	<redcap:SurveyAuthType>FIELD_BASED</redcap:SurveyAuthType>
+	<redcap:SurveyAuthPrefillEmptyOnly>1</redcap:SurveyAuthPrefillEmptyOnly>
+	<redcap:SurveyAuthPrefillUsername></redcap:SurveyAuthPrefillUsername>
+	<redcap:SurveyAuthPrefillFirstname></redcap:SurveyAuthPrefillFirstname>
+	<redcap:SurveyAuthPrefillLastname></redcap:SurveyAuthPrefillLastname>
+	<redcap:SurveyAuthPrefillEmail></redcap:SurveyAuthPrefillEmail>
+	<redcap:SurveyAuthPrefillPhone></redcap:SurveyAuthPrefillPhone>
+	<redcap:SurveyAuthPrefillEmployeeid></redcap:SurveyAuthPrefillEmployeeid>
+	<redcap:SurveyAuthPrefillAltUsername></redcap:SurveyAuthPrefillAltUsername>
+	<redcap:SurveyAuthField1></redcap:SurveyAuthField1>
+	<redcap:SurveyAuthEvent1></redcap:SurveyAuthEvent1>
+	<redcap:SurveyAuthField2></redcap:SurveyAuthField2>
+	<redcap:SurveyAuthEvent2></redcap:SurveyAuthEvent2>
+	<redcap:SurveyAuthField3></redcap:SurveyAuthField3>
+	<redcap:SurveyAuthEvent3></redcap:SurveyAuthEvent3>
+	<redcap:SurveyAuthMinFields></redcap:SurveyAuthMinFields>
+	<redcap:SurveyAuthApplyAllSurveys>1</redcap:SurveyAuthApplyAllSurveys>
+	<redcap:SurveyAuthCustomMessage></redcap:SurveyAuthCustomMessage>
+	<redcap:SurveyAuthFailLimit></redcap:SurveyAuthFailLimit>
+	<redcap:SurveyAuthFailWindow></redcap:SurveyAuthFailWindow>
+	<redcap:DataMartProjectEnabled>0</redcap:DataMartProjectEnabled>
+	<redcap:DatamartAllowRepeatRevision>0</redcap:DatamartAllowRepeatRevision>
+	<redcap:DatamartAllowCreateRevision>0</redcap:DatamartAllowCreateRevision>
+	<redcap:DatamartCronEnabled>0</redcap:DatamartCronEnabled>
+	<redcap:HideFilledForms>1</redcap:HideFilledForms>
+	<redcap:HideDisabledForms>0</redcap:HideDisabledForms>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText></redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:MycapProjectsGroup>
+		<redcap:MycapProjects/>
+	</redcap:MycapProjectsGroup>
+	<redcap:MycapThemesGroup>
+		<redcap:MycapThemes/>
+	</redcap:MycapThemesGroup>
+	<redcap:MultilanguageSettingsGroup>
+		<redcap:MultilanguageSettings settings="YToyNDp7czo3OiJ2ZXJzaW9uIjtzOjY6IjE3LjUuMyI7czo1OiJsYW5ncyI7YTowOnt9czo5OiJwcm9qZWN0SWQiO3M6NToiODA3MjIiO3M6MTU6ImRlc2lnbmF0ZWRGaWVsZCI7czowOiIiO3M6Njoic3RhdHVzIjtzOjM6ImRldiI7czo1OiJkZWJ1ZyI7YjowO3M6MTM6ImFkbWluLWVuYWJsZWQiO2I6MDtzOjE0OiJhZG1pbi1kaXNhYmxlZCI7YjowO3M6MTU6ImFsbG93LWZyb20tZmlsZSI7YjowO3M6MTg6ImFsbG93LWZyb20tc2NyYXRjaCI7YjowO3M6MjE6Im9wdGlvbmFsLXN1YnNjcmlwdGlvbiI7YjowO3M6MTg6ImFsbG93LXVpLW92ZXJyaWRlcyI7YjowO3M6NzoicmVmTGFuZyI7czowOiIiO3M6MTI6ImZhbGxiYWNrTGFuZyI7czowOiIiO3M6ODoiZGlzYWJsZWQiO2I6MDtzOjI1OiJoaWdobGlnaHRNaXNzaW5nRGF0YWVudHJ5IjtiOjA7czoyMjoiaGlnaGxpZ2h0TWlzc2luZ1N1cnZleSI7YjowO3M6MjE6ImF1dG9EZXRlY3RCcm93c2VyTGFuZyI7YjowO3M6MTQ6InNldE5vVHJhbnNsYXRlIjtiOjA7czoxMjoiYWxlcnRTb3VyY2VzIjthOjA6e31zOjEwOiJhc2lTb3VyY2VzIjthOjA6e31zOjE0OiJleGNsdWRlZEFsZXJ0cyI7YTowOnt9czoxNDoiZXhjbHVkZWRGaWVsZHMiO2E6MDp7fXM6MTY6ImV4Y2x1ZGVkU2V0dGluZ3MiO2E6MDp7fX0="/>
+	</redcap:MultilanguageSettingsGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.LongitudinalEEGRegistry_2026-10-18_0650" Name="Longitudinal EEG Registry" redcap:RecordIdField="record_id">
+	<Protocol>
+		<StudyEventRef StudyEventOID="Event.baseline_arm_1" OrderNumber="1" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.surgical_monitorin_arm_1" OrderNumber="2" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.6_month_follow_up_arm_1" OrderNumber="3" Mandatory="No"/>
+	</Protocol>
+	<StudyEventDef OID="Event.baseline_arm_1" Name="Baseline" Type="Common" Repeating="No" redcap:EventName="Baseline" redcap:CustomEventLabel="" redcap:UniqueEventName="baseline_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="1" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.patient_demg" OrderNumber="1" Mandatory="No" redcap:FormName="patient_demg"/>
+		<FormRef FormOID="Form.initial_diagnosis_and_surgical_parameters" OrderNumber="2" Mandatory="No" redcap:FormName="initial_diagnosis_and_surgical_parameters"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.surgical_monitorin_arm_1" Name="Surgical monitoring event" Type="Common" Repeating="No" redcap:EventName="Surgical monitoring event" redcap:CustomEventLabel="" redcap:UniqueEventName="surgical_monitorin_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="2" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.impact_monitoring_and_assessment" OrderNumber="1" Mandatory="No" redcap:FormName="impact_monitoring_and_assessment"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.6_month_follow_up_arm_1" Name="6 month follow up" Type="Common" Repeating="No" redcap:EventName="6 month follow up" redcap:CustomEventLabel="" redcap:UniqueEventName="6_month_follow_up_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="3" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.post_op_recovery_status" OrderNumber="1" Mandatory="No" redcap:FormName="post_op_recovery_status"/>
+	</StudyEventDef>
+	<FormDef OID="Form.patient_demg" Name="Patient Demographics" Repeating="No" redcap:FormName="patient_demg">
+		<ItemGroupRef ItemGroupOID="patient_demg.record_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="patient_demg.patient_demg_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.initial_diagnosis_and_surgical_parameters" Name="Initial Diagnosis and Surgical parameters" Repeating="No" redcap:FormName="initial_diagnosis_and_surgical_parameters">
+		<ItemGroupRef ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.impact_monitoring_and_assessment" Name="Impact monitoring and assessment" Repeating="No" redcap:FormName="impact_monitoring_and_assessment">
+		<ItemGroupRef ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.post_op_recovery_status" Name="Post Op Recovery status" Repeating="No" redcap:FormName="post_op_recovery_status">
+		<ItemGroupRef ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="patient_demg.record_id" Name="Patient Demographics" Repeating="No">
+		<ItemRef ItemOID="record_id" Mandatory="No" redcap:Variable="record_id"/>
+		<ItemRef ItemOID="date_of_enrollment" Mandatory="Yes" redcap:Variable="date_of_enrollment"/>
+		<ItemRef ItemOID="date_of_birth" Mandatory="Yes" redcap:Variable="date_of_birth"/>
+		<ItemRef ItemOID="age" Mandatory="No" redcap:Variable="age"/>
+		<ItemRef ItemOID="partner_hospital" Mandatory="Yes" redcap:Variable="partner_hospital"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="patient_demg.patient_demg_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="patient_demg_complete" Mandatory="No" redcap:Variable="patient_demg_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" Name="Initial Diagnosis and Surgical parameters" Repeating="No">
+		<ItemRef ItemOID="primary_diagnosis" Mandatory="Yes" redcap:Variable="primary_diagnosis"/>
+		<ItemRef ItemOID="seizure_frequency" Mandatory="No" redcap:Variable="seizure_frequency"/>
+		<ItemRef ItemOID="baseline_tremor_scale" Mandatory="No" redcap:Variable="baseline_tremor_scale"/>
+		<ItemRef ItemOID="electrode_type___1" Mandatory="No" redcap:Variable="electrode_type"/>
+		<ItemRef ItemOID="electrode_type___2" Mandatory="No" redcap:Variable="electrode_type"/>
+		<ItemRef ItemOID="electrode_type___3" Mandatory="No" redcap:Variable="electrode_type"/>
+		<ItemRef ItemOID="electrode_type___4" Mandatory="No" redcap:Variable="electrode_type"/>
+		<ItemRef ItemOID="electrode_count" Mandatory="Yes" redcap:Variable="electrode_count"/>
+		<ItemRef ItemOID="sampling_rate_hz" Mandatory="No" redcap:Variable="sampling_rate_hz"/>
+		<ItemRef ItemOID="signal_storage_url" Mandatory="No" redcap:Variable="signal_storage_url"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="initial_diagnosis_and_surgical_parameters_complete" Mandatory="No" redcap:Variable="initial_diagnosis_and_surgical_parameters_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="impact_monitoring_and_assessment.pre_eeg_sedative" Name="Impact monitoring and assessment" Repeating="No">
+		<ItemRef ItemOID="pre_eeg_sedative" Mandatory="Yes" redcap:Variable="pre_eeg_sedative"/>
+		<ItemRef ItemOID="sedative_dosage" Mandatory="No" redcap:Variable="sedative_dosage"/>
+		<ItemRef ItemOID="sampling_rate_hz_post" Mandatory="No" redcap:Variable="sampling_rate_hz_post"/>
+		<ItemRef ItemOID="sedative_impact_observed___1" Mandatory="Yes" redcap:Variable="sedative_impact_observed"/>
+		<ItemRef ItemOID="sedative_impact_observed___2" Mandatory="Yes" redcap:Variable="sedative_impact_observed"/>
+		<ItemRef ItemOID="sedative_impact_observed___3" Mandatory="Yes" redcap:Variable="sedative_impact_observed"/>
+		<ItemRef ItemOID="sedative_impact_observed___4" Mandatory="Yes" redcap:Variable="sedative_impact_observed"/>
+		<ItemRef ItemOID="seizure_onset_zone_localiz" Mandatory="No" redcap:Variable="seizure_onset_zone_localiz"/>
+		<ItemRef ItemOID="soz_anatomical_location___1" Mandatory="No" redcap:Variable="soz_anatomical_location"/>
+		<ItemRef ItemOID="soz_anatomical_location___2" Mandatory="No" redcap:Variable="soz_anatomical_location"/>
+		<ItemRef ItemOID="soz_anatomical_location___3" Mandatory="No" redcap:Variable="soz_anatomical_location"/>
+		<ItemRef ItemOID="soz_anatomical_location___4" Mandatory="No" redcap:Variable="soz_anatomical_location"/>
+		<ItemRef ItemOID="soz_anatomical_location___5" Mandatory="No" redcap:Variable="soz_anatomical_location"/>
+		<ItemRef ItemOID="surgery_scheduled" Mandatory="No" redcap:Variable="surgery_scheduled"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="impact_monitoring_and_assessment_complete" Mandatory="No" redcap:Variable="impact_monitoring_and_assessment_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="post_op_recovery_status.surgical_intervention_perf" Name="Post Op Recovery status" Repeating="No">
+		<ItemRef ItemOID="surgical_intervention_perf" Mandatory="Yes" redcap:Variable="surgical_intervention_perf"/>
+		<ItemRef ItemOID="post_op_recovery_status" Mandatory="No" redcap:Variable="post_op_recovery_status"/>
+		<ItemRef ItemOID="post_op_tremor_scale" Mandatory="No" redcap:Variable="post_op_tremor_scale"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="post_op_recovery_status.post_op_recovery_status_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="post_op_recovery_status_complete" Mandatory="No" redcap:Variable="post_op_recovery_status_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_id" Name="record_id" DataType="text" Length="999" redcap:Variable="record_id" redcap:FieldType="text">
+		<Question><TranslatedText>Record ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_of_enrollment" Name="date_of_enrollment" DataType="date" Length="999" redcap:Variable="date_of_enrollment" redcap:FieldType="text" redcap:TextValidationType="date_dmy" redcap:RequiredField="y">
+		<Question><TranslatedText>Date of Enrollment</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_of_birth" Name="date_of_birth" DataType="date" Length="999" redcap:Variable="date_of_birth" redcap:FieldType="text" redcap:TextValidationType="date_dmy" redcap:RequiredField="y">
+		<Question><TranslatedText>Date of Birth</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="age" Name="age" DataType="float" Length="999" redcap:Variable="age" redcap:FieldType="calc" redcap:Calculation="age_at_date([date_of_birth], &#039;today&#039;)">
+		<Question><TranslatedText>Age</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="partner_hospital" Name="partner_hospital" DataType="text" Length="1" redcap:Variable="partner_hospital" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Partner Hospital</TranslatedText></Question>
+		<CodeListRef CodeListOID="partner_hospital.choices"/>
+	</ItemDef>
+	<ItemDef OID="patient_demg_complete" Name="patient_demg_complete" DataType="text" Length="1" redcap:Variable="patient_demg_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="patient_demg_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="primary_diagnosis" Name="primary_diagnosis" DataType="text" Length="1" redcap:Variable="primary_diagnosis" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Primary diagnosis</TranslatedText></Question>
+		<CodeListRef CodeListOID="primary_diagnosis.choices"/>
+	</ItemDef>
+	<ItemDef OID="seizure_frequency" Name="seizure_frequency" DataType="text" Length="1" redcap:Variable="seizure_frequency" redcap:FieldType="select" redcap:BranchingLogic="[primary_diagnosis] = &#039;1&#039;">
+		<Question><TranslatedText>Seizure Frequency</TranslatedText></Question>
+		<CodeListRef CodeListOID="seizure_frequency.choices"/>
+	</ItemDef>
+	<ItemDef OID="baseline_tremor_scale" Name="baseline_tremor_scale" DataType="text" Length="1" redcap:Variable="baseline_tremor_scale" redcap:FieldType="radio" redcap:FieldNote="0 to 4 scale based on the MDS-UPDRS Part III (Section 3.15/3.16 Postural/Kinetic Tremor) and the Fahn-Tolosa-Marín (FTM) Rating Scale." redcap:BranchingLogic="[primary_diagnosis] = &#039;2&#039; or [primary_diagnosis] = &#039;3&#039;">
+		<Question><TranslatedText>Baseline Tremor scale</TranslatedText></Question>
+		<CodeListRef CodeListOID="baseline_tremor_scale.choices"/>
+	</ItemDef>
+	<ItemDef OID="electrode_type___1" Name="electrode_type___1" DataType="boolean" Length="1" redcap:Variable="electrode_type" redcap:FieldType="checkbox">
+		<Question><TranslatedText>Electrode type</TranslatedText></Question>
+		<CodeListRef CodeListOID="electrode_type___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="electrode_type___2" Name="electrode_type___2" DataType="boolean" Length="1" redcap:Variable="electrode_type" redcap:FieldType="checkbox">
+		<Question><TranslatedText>Electrode type</TranslatedText></Question>
+		<CodeListRef CodeListOID="electrode_type___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="electrode_type___3" Name="electrode_type___3" DataType="boolean" Length="1" redcap:Variable="electrode_type" redcap:FieldType="checkbox">
+		<Question><TranslatedText>Electrode type</TranslatedText></Question>
+		<CodeListRef CodeListOID="electrode_type___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="electrode_type___4" Name="electrode_type___4" DataType="boolean" Length="1" redcap:Variable="electrode_type" redcap:FieldType="checkbox">
+		<Question><TranslatedText>Electrode type</TranslatedText></Question>
+		<CodeListRef CodeListOID="electrode_type___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="electrode_count" Name="electrode_count" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="electrode_count" redcap:FieldType="text" redcap:TextValidationType="float" redcap:FieldNote="Log the total number of individual recording contacts/channels across all arrays, not just the number of surgical entry incisions." redcap:RequiredField="y">
+		<Question><TranslatedText>Electrode count</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>4</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (4 - 256). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>256</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (4 - 256). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="sampling_rate_hz" Name="sampling_rate_hz" DataType="text" Length="4" redcap:Variable="sampling_rate_hz" redcap:FieldType="radio">
+		<Question><TranslatedText>Sampling rate(hz)</TranslatedText></Question>
+		<CodeListRef CodeListOID="sampling_rate_hz.choices"/>
+	</ItemDef>
+	<ItemDef OID="signal_storage_url" Name="signal_storage_url" DataType="text" Length="999" redcap:Variable="signal_storage_url" redcap:FieldType="text">
+		<Question><TranslatedText>Signal Storage URL</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="initial_diagnosis_and_surgical_parameters_complete" Name="initial_diagnosis_and_surgical_parameters_complete" DataType="text" Length="1" redcap:Variable="initial_diagnosis_and_surgical_parameters_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="initial_diagnosis_and_surgical_parameters_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="pre_eeg_sedative" Name="pre_eeg_sedative" DataType="text" Length="1" redcap:Variable="pre_eeg_sedative" redcap:FieldType="radio" redcap:FieldNote="Did the patient require a sedative to reduce motion artifacts?" redcap:RequiredField="y">
+		<Question><TranslatedText>Pre EEG Sedative</TranslatedText></Question>
+		<CodeListRef CodeListOID="pre_eeg_sedative.choices"/>
+	</ItemDef>
+	<ItemDef OID="sedative_dosage" Name="sedative_dosage" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="sedative_dosage" redcap:FieldType="text" redcap:TextValidationType="float" redcap:BranchingLogic="[pre_eeg_sedative] = &#039;1&#039;">
+		<Question><TranslatedText>Sedative dosage per EEG session</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>5</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (5 - 25). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>25</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (5 - 25). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="sampling_rate_hz_post" Name="sampling_rate_hz_post" DataType="text" Length="4" redcap:Variable="sampling_rate_hz_post" redcap:FieldType="radio">
+		<Question><TranslatedText>Sampling rate(hz)</TranslatedText></Question>
+		<CodeListRef CodeListOID="sampling_rate_hz_post.choices"/>
+	</ItemDef>
+	<ItemDef OID="sedative_impact_observed___1" Name="sedative_impact_observed___1" DataType="boolean" Length="1" redcap:Variable="sedative_impact_observed" redcap:FieldType="checkbox" redcap:RequiredField="y" redcap:BranchingLogic="[pre_eeg_sedative] = &#039;1&#039;">
+		<Question><TranslatedText>Sedative Impact observed</TranslatedText></Question>
+		<CodeListRef CodeListOID="sedative_impact_observed___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="sedative_impact_observed___2" Name="sedative_impact_observed___2" DataType="boolean" Length="1" redcap:Variable="sedative_impact_observed" redcap:FieldType="checkbox" redcap:RequiredField="y" redcap:BranchingLogic="[pre_eeg_sedative] = &#039;1&#039;">
+		<Question><TranslatedText>Sedative Impact observed</TranslatedText></Question>
+		<CodeListRef CodeListOID="sedative_impact_observed___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="sedative_impact_observed___3" Name="sedative_impact_observed___3" DataType="boolean" Length="1" redcap:Variable="sedative_impact_observed" redcap:FieldType="checkbox" redcap:RequiredField="y" redcap:BranchingLogic="[pre_eeg_sedative] = &#039;1&#039;">
+		<Question><TranslatedText>Sedative Impact observed</TranslatedText></Question>
+		<CodeListRef CodeListOID="sedative_impact_observed___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="sedative_impact_observed___4" Name="sedative_impact_observed___4" DataType="boolean" Length="1" redcap:Variable="sedative_impact_observed" redcap:FieldType="checkbox" redcap:RequiredField="y" redcap:BranchingLogic="[pre_eeg_sedative] = &#039;1&#039;">
+		<Question><TranslatedText>Sedative Impact observed</TranslatedText></Question>
+		<CodeListRef CodeListOID="sedative_impact_observed___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="seizure_onset_zone_localiz" Name="seizure_onset_zone_localiz" DataType="text" Length="1" redcap:Variable="seizure_onset_zone_localiz" redcap:FieldType="radio">
+		<Question><TranslatedText>Seizure Onset Zone Localized?</TranslatedText></Question>
+		<CodeListRef CodeListOID="seizure_onset_zone_localiz.choices"/>
+	</ItemDef>
+	<ItemDef OID="soz_anatomical_location___1" Name="soz_anatomical_location___1" DataType="boolean" Length="1" redcap:Variable="soz_anatomical_location" redcap:FieldType="checkbox" redcap:BranchingLogic="[seizure_onset_zone_localiz] = &#039;1&#039; or [seizure_onset_zone_localiz] = &#039;2&#039; or [seizure_onset_zone_localiz] = &#039;3&#039;">
+		<Question><TranslatedText>SOZ anatomical location</TranslatedText></Question>
+		<CodeListRef CodeListOID="soz_anatomical_location___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="soz_anatomical_location___2" Name="soz_anatomical_location___2" DataType="boolean" Length="1" redcap:Variable="soz_anatomical_location" redcap:FieldType="checkbox" redcap:BranchingLogic="[seizure_onset_zone_localiz] = &#039;1&#039; or [seizure_onset_zone_localiz] = &#039;2&#039; or [seizure_onset_zone_localiz] = &#039;3&#039;">
+		<Question><TranslatedText>SOZ anatomical location</TranslatedText></Question>
+		<CodeListRef CodeListOID="soz_anatomical_location___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="soz_anatomical_location___3" Name="soz_anatomical_location___3" DataType="boolean" Length="1" redcap:Variable="soz_anatomical_location" redcap:FieldType="checkbox" redcap:BranchingLogic="[seizure_onset_zone_localiz] = &#039;1&#039; or [seizure_onset_zone_localiz] = &#039;2&#039; or [seizure_onset_zone_localiz] = &#039;3&#039;">
+		<Question><TranslatedText>SOZ anatomical location</TranslatedText></Question>
+		<CodeListRef CodeListOID="soz_anatomical_location___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="soz_anatomical_location___4" Name="soz_anatomical_location___4" DataType="boolean" Length="1" redcap:Variable="soz_anatomical_location" redcap:FieldType="checkbox" redcap:BranchingLogic="[seizure_onset_zone_localiz] = &#039;1&#039; or [seizure_onset_zone_localiz] = &#039;2&#039; or [seizure_onset_zone_localiz] = &#039;3&#039;">
+		<Question><TranslatedText>SOZ anatomical location</TranslatedText></Question>
+		<CodeListRef CodeListOID="soz_anatomical_location___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="soz_anatomical_location___5" Name="soz_anatomical_location___5" DataType="boolean" Length="1" redcap:Variable="soz_anatomical_location" redcap:FieldType="checkbox" redcap:BranchingLogic="[seizure_onset_zone_localiz] = &#039;1&#039; or [seizure_onset_zone_localiz] = &#039;2&#039; or [seizure_onset_zone_localiz] = &#039;3&#039;">
+		<Question><TranslatedText>SOZ anatomical location</TranslatedText></Question>
+		<CodeListRef CodeListOID="soz_anatomical_location___5.choices"/>
+	</ItemDef>
+	<ItemDef OID="surgery_scheduled" Name="surgery_scheduled" DataType="boolean" Length="1" redcap:Variable="surgery_scheduled" redcap:FieldType="yesno">
+		<Question><TranslatedText>Surgical intervention required?</TranslatedText></Question>
+		<CodeListRef CodeListOID="surgery_scheduled.choices"/>
+	</ItemDef>
+	<ItemDef OID="impact_monitoring_and_assessment_complete" Name="impact_monitoring_and_assessment_complete" DataType="text" Length="1" redcap:Variable="impact_monitoring_and_assessment_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="impact_monitoring_and_assessment_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="surgical_intervention_perf" Name="surgical_intervention_perf" DataType="boolean" Length="1" redcap:Variable="surgical_intervention_perf" redcap:FieldType="yesno" redcap:RequiredField="y">
+		<Question><TranslatedText>Surgical intervention performed</TranslatedText></Question>
+		<CodeListRef CodeListOID="surgical_intervention_perf.choices"/>
+	</ItemDef>
+	<ItemDef OID="post_op_recovery_status" Name="post_op_recovery_status" DataType="text" Length="1" redcap:Variable="post_op_recovery_status" redcap:FieldType="select" redcap:BranchingLogic="[surgical_intervention_perf] = &#039;1&#039;">
+		<Question><TranslatedText>Post op recovery status(Epilepsy patients)</TranslatedText></Question>
+		<CodeListRef CodeListOID="post_op_recovery_status.choices"/>
+	</ItemDef>
+	<ItemDef OID="post_op_tremor_scale" Name="post_op_tremor_scale" DataType="text" Length="1" redcap:Variable="post_op_tremor_scale" redcap:FieldType="select">
+		<Question><TranslatedText>Post Op Tremor Scale</TranslatedText></Question>
+		<CodeListRef CodeListOID="post_op_tremor_scale.choices"/>
+	</ItemDef>
+	<ItemDef OID="post_op_recovery_status_complete" Name="post_op_recovery_status_complete" DataType="text" Length="1" redcap:Variable="post_op_recovery_status_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="post_op_recovery_status_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="partner_hospital.choices" Name="partner_hospital" DataType="text" redcap:Variable="partner_hospital">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>DMH Pune</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>AH Kochi</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>SCH Trivandrum</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>MSRH Bengaluru</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="patient_demg_complete.choices" Name="patient_demg_complete" DataType="text" redcap:Variable="patient_demg_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="primary_diagnosis.choices" Name="primary_diagnosis" DataType="text" redcap:Variable="primary_diagnosis">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Drug-Resistant Epilepsy</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Movement Disorder / Parkinson&#039;s</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Essential Tremor</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="seizure_frequency.choices" Name="seizure_frequency" DataType="text" redcap:Variable="seizure_frequency">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>≥ 10 seizures per day, on most days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>≥ 2 seizures per day, at least 4 days per week</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>1 seizure per day, at least 4 days per week</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>1 or more seizures per week (but not daily)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>1 or more seizures per month (but not weekly)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Fewer than 1 seizure per month</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="baseline_tremor_scale.choices" Name="baseline_tremor_scale" DataType="text" redcap:Variable="baseline_tremor_scale">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>0: Normal / None (No tremor present)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1: Slight / Mild (Infrequent or slight amplitude; &lt; 1 cm)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2: Moderate (Obvious tremor; moderate amplitude; 1 to 2 cm)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3: Marked (Severe amplitude; 2 to 4 cm; interferes with many tasks)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>4: Severe (Extreme amplitude; &gt; 4 cm; prevents eating or writing completely)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="electrode_type___1.choices" Name="electrode_type___1" DataType="boolean" redcap:Variable="electrode_type" redcap:CheckboxChoices="1, Subdural Grid | 2, Strip | 3, Stereotactic Depth sEEG | 4, Microelectrode Arrays">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="electrode_type___2.choices" Name="electrode_type___2" DataType="boolean" redcap:Variable="electrode_type" redcap:CheckboxChoices="1, Subdural Grid | 2, Strip | 3, Stereotactic Depth sEEG | 4, Microelectrode Arrays">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="electrode_type___3.choices" Name="electrode_type___3" DataType="boolean" redcap:Variable="electrode_type" redcap:CheckboxChoices="1, Subdural Grid | 2, Strip | 3, Stereotactic Depth sEEG | 4, Microelectrode Arrays">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="electrode_type___4.choices" Name="electrode_type___4" DataType="boolean" redcap:Variable="electrode_type" redcap:CheckboxChoices="1, Subdural Grid | 2, Strip | 3, Stereotactic Depth sEEG | 4, Microelectrode Arrays">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sampling_rate_hz.choices" Name="sampling_rate_hz" DataType="text" redcap:Variable="sampling_rate_hz">
+		<CodeListItem CodedValue="256"><Decode><TranslatedText>256 Hz (Standard Routine EEG)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="512"><Decode><TranslatedText>512 Hz (Clinical iEEG / Monitoring)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1024"><Decode><TranslatedText>1024 Hz (High-Fidelity Surgical Mapping)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2048"><Decode><TranslatedText>2048 Hz+ (Advanced High-Frequency Research)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="initial_diagnosis_and_surgical_parameters_complete.choices" Name="initial_diagnosis_and_surgical_parameters_complete" DataType="text" redcap:Variable="initial_diagnosis_and_surgical_parameters_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pre_eeg_sedative.choices" Name="pre_eeg_sedative" DataType="text" redcap:Variable="pre_eeg_sedative">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sampling_rate_hz_post.choices" Name="sampling_rate_hz_post" DataType="text" redcap:Variable="sampling_rate_hz_post">
+		<CodeListItem CodedValue="256"><Decode><TranslatedText>256 Hz (Standard Routine EEG)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="512"><Decode><TranslatedText>512 Hz (Clinical iEEG / Monitoring)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1024"><Decode><TranslatedText>1024 Hz (High-Fidelity Surgical Mapping)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2048"><Decode><TranslatedText>2048 Hz+ (Advanced High-Frequency Research)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sedative_impact_observed___1.choices" Name="sedative_impact_observed___1" DataType="boolean" redcap:Variable="sedative_impact_observed" redcap:CheckboxChoices="1, Increased Beta burst activity | 2, Generalized slowing/Delta induction | 3, Burst suppression | 4, Suppression of epileptiform discharges">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sedative_impact_observed___2.choices" Name="sedative_impact_observed___2" DataType="boolean" redcap:Variable="sedative_impact_observed" redcap:CheckboxChoices="1, Increased Beta burst activity | 2, Generalized slowing/Delta induction | 3, Burst suppression | 4, Suppression of epileptiform discharges">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sedative_impact_observed___3.choices" Name="sedative_impact_observed___3" DataType="boolean" redcap:Variable="sedative_impact_observed" redcap:CheckboxChoices="1, Increased Beta burst activity | 2, Generalized slowing/Delta induction | 3, Burst suppression | 4, Suppression of epileptiform discharges">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sedative_impact_observed___4.choices" Name="sedative_impact_observed___4" DataType="boolean" redcap:Variable="sedative_impact_observed" redcap:CheckboxChoices="1, Increased Beta burst activity | 2, Generalized slowing/Delta induction | 3, Burst suppression | 4, Suppression of epileptiform discharges">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="seizure_onset_zone_localiz.choices" Name="seizure_onset_zone_localiz" DataType="text" redcap:Variable="seizure_onset_zone_localiz">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes - Focal (Single, clear, localized spot found)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Yes - Multifocal (Multiple distinct seizure onset spots found)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Yes - Diffuse (Widespread onset; cannot isolate a single safe spot)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No - Inconclusive (No clinical seizures captured during monitoring)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="soz_anatomical_location___1.choices" Name="soz_anatomical_location___1" DataType="boolean" redcap:Variable="soz_anatomical_location" redcap:CheckboxChoices="1, Temporal Lobe (Most common in drug-resistant epilepsy) | 2, Frontal Lobe | 3, Parietal Lobe | 4, Occipital Lobe | 5, Deep Subcortical Structures">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="soz_anatomical_location___2.choices" Name="soz_anatomical_location___2" DataType="boolean" redcap:Variable="soz_anatomical_location" redcap:CheckboxChoices="1, Temporal Lobe (Most common in drug-resistant epilepsy) | 2, Frontal Lobe | 3, Parietal Lobe | 4, Occipital Lobe | 5, Deep Subcortical Structures">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="soz_anatomical_location___3.choices" Name="soz_anatomical_location___3" DataType="boolean" redcap:Variable="soz_anatomical_location" redcap:CheckboxChoices="1, Temporal Lobe (Most common in drug-resistant epilepsy) | 2, Frontal Lobe | 3, Parietal Lobe | 4, Occipital Lobe | 5, Deep Subcortical Structures">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="soz_anatomical_location___4.choices" Name="soz_anatomical_location___4" DataType="boolean" redcap:Variable="soz_anatomical_location" redcap:CheckboxChoices="1, Temporal Lobe (Most common in drug-resistant epilepsy) | 2, Frontal Lobe | 3, Parietal Lobe | 4, Occipital Lobe | 5, Deep Subcortical Structures">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="soz_anatomical_location___5.choices" Name="soz_anatomical_location___5" DataType="boolean" redcap:Variable="soz_anatomical_location" redcap:CheckboxChoices="1, Temporal Lobe (Most common in drug-resistant epilepsy) | 2, Frontal Lobe | 3, Parietal Lobe | 4, Occipital Lobe | 5, Deep Subcortical Structures">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="surgery_scheduled.choices" Name="surgery_scheduled" DataType="boolean" redcap:Variable="surgery_scheduled">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="impact_monitoring_and_assessment_complete.choices" Name="impact_monitoring_and_assessment_complete" DataType="text" redcap:Variable="impact_monitoring_and_assessment_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="surgical_intervention_perf.choices" Name="surgical_intervention_perf" DataType="boolean" redcap:Variable="surgical_intervention_perf">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="post_op_recovery_status.choices" Name="post_op_recovery_status" DataType="text" redcap:Variable="post_op_recovery_status">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Engel Class I: Completely Seizure-Free (Fully recovered/cured)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Engel Class II: Rare Seizures (Significant recovery, &lt; 3 seizures a year)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Engel Class III: Worthwhile Improvement (&gt;90% reduction in seizures)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Engel Class IV: No Worthwhile Improvement (Surgery failed to recover the patient)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="post_op_tremor_scale.choices" Name="post_op_tremor_scale" DataType="text" redcap:Variable="post_op_tremor_scale">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>0: Normal / None (No tremor present)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1: Slight / Mild (Infrequent or slight amplitude; &lt; 1 cm)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2: Moderate (Obvious tremor; moderate amplitude; 1 to 2 cm)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3: Marked (Severe amplitude; 2 to 4 cm; interferes with many tasks)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>4: Severe (Extreme amplitude; &gt; 4 cm; prevents eating or writing completely)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="post_op_recovery_status_complete.choices" Name="post_op_recovery_status_complete" DataType="text" redcap:Variable="post_op_recovery_status_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+<ClinicalData StudyOID="Project.LongitudinalEEGRegistry" MetaDataVersionOID="Metadata.LongitudinalEEGRegistry_2026-10-18_0650">
+	<SubjectData SubjectKey="SUBJ_1" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_1"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2026-02-07"/>
+					<ItemData ItemOID="date_of_birth" Value="1985-01-20"/>
+					<ItemData ItemOID="partner_hospital" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="1"/>
+					<ItemData ItemOID="seizure_frequency" Value="3"/>
+					<ItemData ItemOID="electrode_type___1" Value="1"/>
+					<ItemData ItemOID="electrode_type___2" Value="1"/>
+					<ItemData ItemOID="electrode_type___3" Value="0"/>
+					<ItemData ItemOID="electrode_type___4" Value="0"/>
+					<ItemData ItemOID="electrode_count" Value="24"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="2048"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="2048"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="0"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_2" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_2"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2026-05-09"/>
+					<ItemData ItemOID="date_of_birth" Value="1996-12-02"/>
+					<ItemData ItemOID="partner_hospital" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="3"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="3"/>
+					<ItemData ItemOID="electrode_type___1" Value="1"/>
+					<ItemData ItemOID="electrode_type___2" Value="1"/>
+					<ItemData ItemOID="electrode_type___3" Value="0"/>
+					<ItemData ItemOID="electrode_type___4" Value="0"/>
+					<ItemData ItemOID="electrode_count" Value="119"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="2048"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="2048"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="2"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="1"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_3" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_3"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2026-12-17"/>
+					<ItemData ItemOID="date_of_birth" Value="1998-10-30"/>
+					<ItemData ItemOID="partner_hospital" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="3"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="4"/>
+					<ItemData ItemOID="electrode_type___1" Value="0"/>
+					<ItemData ItemOID="electrode_type___2" Value="1"/>
+					<ItemData ItemOID="electrode_type___3" Value="1"/>
+					<ItemData ItemOID="electrode_type___4" Value="0"/>
+					<ItemData ItemOID="electrode_count" Value="54"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="1024"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="1024"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="3"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="0"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_4" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_4"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2025-12-24"/>
+					<ItemData ItemOID="date_of_birth" Value="1964-07-22"/>
+					<ItemData ItemOID="partner_hospital" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="2"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="4"/>
+					<ItemData ItemOID="electrode_type___1" Value="0"/>
+					<ItemData ItemOID="electrode_type___2" Value="1"/>
+					<ItemData ItemOID="electrode_type___3" Value="0"/>
+					<ItemData ItemOID="electrode_type___4" Value="1"/>
+					<ItemData ItemOID="electrode_count" Value="24"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="256"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="512"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="1"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_5" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_5"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2025-06-07"/>
+					<ItemData ItemOID="date_of_birth" Value="1978-09-05"/>
+					<ItemData ItemOID="partner_hospital" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="3"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="0"/>
+					<ItemData ItemOID="electrode_type___1" Value="0"/>
+					<ItemData ItemOID="electrode_type___2" Value="1"/>
+					<ItemData ItemOID="electrode_type___3" Value="1"/>
+					<ItemData ItemOID="electrode_type___4" Value="0"/>
+					<ItemData ItemOID="electrode_count" Value="252"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="256"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="512"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="1"/>
+					<ItemData ItemOID="surgery_scheduled" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="0"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_6" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_6"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2025-11-05"/>
+					<ItemData ItemOID="date_of_birth" Value="1977-09-24"/>
+					<ItemData ItemOID="partner_hospital" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="3"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="1"/>
+					<ItemData ItemOID="electrode_type___1" Value="0"/>
+					<ItemData ItemOID="electrode_type___2" Value="0"/>
+					<ItemData ItemOID="electrode_type___3" Value="0"/>
+					<ItemData ItemOID="electrode_type___4" Value="1"/>
+					<ItemData ItemOID="electrode_count" Value="202"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="512"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="256"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="2"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="1"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_7" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_7"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2025-04-11"/>
+					<ItemData ItemOID="date_of_birth" Value="1959-11-02"/>
+					<ItemData ItemOID="partner_hospital" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="3"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="2"/>
+					<ItemData ItemOID="electrode_type___1" Value="0"/>
+					<ItemData ItemOID="electrode_type___2" Value="1"/>
+					<ItemData ItemOID="electrode_type___3" Value="0"/>
+					<ItemData ItemOID="electrode_type___4" Value="0"/>
+					<ItemData ItemOID="electrode_count" Value="36"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="2048"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="1024"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="3"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="1"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_8" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_8"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2025-07-25"/>
+					<ItemData ItemOID="date_of_birth" Value="1957-07-07"/>
+					<ItemData ItemOID="partner_hospital" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="2"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="3"/>
+					<ItemData ItemOID="electrode_type___1" Value="1"/>
+					<ItemData ItemOID="electrode_type___2" Value="0"/>
+					<ItemData ItemOID="electrode_type___3" Value="0"/>
+					<ItemData ItemOID="electrode_type___4" Value="1"/>
+					<ItemData ItemOID="electrode_count" Value="179"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="2048"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="2048"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="3"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="1"/>
+					<ItemData ItemOID="surgery_scheduled" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="1"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_9" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_9"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2026-04-11"/>
+					<ItemData ItemOID="date_of_birth" Value="1995-02-07"/>
+					<ItemData ItemOID="partner_hospital" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="1"/>
+					<ItemData ItemOID="seizure_frequency" Value="4"/>
+					<ItemData ItemOID="electrode_type___1" Value="1"/>
+					<ItemData ItemOID="electrode_type___2" Value="0"/>
+					<ItemData ItemOID="electrode_type___3" Value="1"/>
+					<ItemData ItemOID="electrode_type___4" Value="0"/>
+					<ItemData ItemOID="electrode_count" Value="11"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="512"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="1"/>
+					<ItemData ItemOID="sedative_dosage" Value="12.2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="2048"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="1"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="1"/>
+					<ItemData ItemOID="post_op_recovery_status" Value="1"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_10" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_10"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2025-08-07"/>
+					<ItemData ItemOID="date_of_birth" Value="1969-10-01"/>
+					<ItemData ItemOID="partner_hospital" Value="4"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="2"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="1"/>
+					<ItemData ItemOID="electrode_type___1" Value="0"/>
+					<ItemData ItemOID="electrode_type___2" Value="0"/>
+					<ItemData ItemOID="electrode_type___3" Value="0"/>
+					<ItemData ItemOID="electrode_type___4" Value="1"/>
+					<ItemData ItemOID="electrode_count" Value="149"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="2048"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="1024"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="3"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="0"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_11" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_11"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2025-07-17"/>
+					<ItemData ItemOID="date_of_birth" Value="1959-09-05"/>
+					<ItemData ItemOID="partner_hospital" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="1"/>
+					<ItemData ItemOID="seizure_frequency" Value="5"/>
+					<ItemData ItemOID="electrode_type___1" Value="0"/>
+					<ItemData ItemOID="electrode_type___2" Value="0"/>
+					<ItemData ItemOID="electrode_type___3" Value="0"/>
+					<ItemData ItemOID="electrode_type___4" Value="1"/>
+					<ItemData ItemOID="electrode_count" Value="129"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="2048"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="1"/>
+					<ItemData ItemOID="sedative_dosage" Value="21.3"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="256"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="1"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="1"/>
+					<ItemData ItemOID="post_op_recovery_status" Value="4"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_12" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_12"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2026-10-23"/>
+					<ItemData ItemOID="date_of_birth" Value="1972-06-11"/>
+					<ItemData ItemOID="partner_hospital" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="2"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="1"/>
+					<ItemData ItemOID="electrode_type___1" Value="0"/>
+					<ItemData ItemOID="electrode_type___2" Value="0"/>
+					<ItemData ItemOID="electrode_type___3" Value="1"/>
+					<ItemData ItemOID="electrode_type___4" Value="1"/>
+					<ItemData ItemOID="electrode_count" Value="9"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="1024"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="512"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="1"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_13" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_13"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2026-09-18"/>
+					<ItemData ItemOID="date_of_birth" Value="1971-10-09"/>
+					<ItemData ItemOID="partner_hospital" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="2"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="3"/>
+					<ItemData ItemOID="electrode_type___1" Value="1"/>
+					<ItemData ItemOID="electrode_type___2" Value="1"/>
+					<ItemData ItemOID="electrode_type___3" Value="0"/>
+					<ItemData ItemOID="electrode_type___4" Value="0"/>
+					<ItemData ItemOID="electrode_count" Value="195"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="512"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="1"/>
+					<ItemData ItemOID="sedative_dosage" Value="19.9"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="1024"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="1"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="1"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="0"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_14" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_14"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2025-12-08"/>
+					<ItemData ItemOID="date_of_birth" Value="1991-01-07"/>
+					<ItemData ItemOID="partner_hospital" Value="4"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="2"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="1"/>
+					<ItemData ItemOID="electrode_type___1" Value="0"/>
+					<ItemData ItemOID="electrode_type___2" Value="1"/>
+					<ItemData ItemOID="electrode_type___3" Value="0"/>
+					<ItemData ItemOID="electrode_type___4" Value="1"/>
+					<ItemData ItemOID="electrode_count" Value="97"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="2048"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="1"/>
+					<ItemData ItemOID="sedative_dosage" Value="19.1"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="1024"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="1"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="1"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_15" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_15"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2026-11-10"/>
+					<ItemData ItemOID="date_of_birth" Value="1983-06-06"/>
+					<ItemData ItemOID="partner_hospital" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="1"/>
+					<ItemData ItemOID="seizure_frequency" Value="5"/>
+					<ItemData ItemOID="electrode_type___1" Value="0"/>
+					<ItemData ItemOID="electrode_type___2" Value="1"/>
+					<ItemData ItemOID="electrode_type___3" Value="1"/>
+					<ItemData ItemOID="electrode_type___4" Value="0"/>
+					<ItemData ItemOID="electrode_count" Value="193"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="2048"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="1"/>
+					<ItemData ItemOID="sedative_dosage" Value="14.4"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="2048"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="1"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="1"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="0"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_16" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_16"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2026-09-22"/>
+					<ItemData ItemOID="date_of_birth" Value="1984-09-20"/>
+					<ItemData ItemOID="partner_hospital" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="1"/>
+					<ItemData ItemOID="seizure_frequency" Value="6"/>
+					<ItemData ItemOID="electrode_type___1" Value="0"/>
+					<ItemData ItemOID="electrode_type___2" Value="0"/>
+					<ItemData ItemOID="electrode_type___3" Value="1"/>
+					<ItemData ItemOID="electrode_type___4" Value="1"/>
+					<ItemData ItemOID="electrode_count" Value="241"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="1024"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="512"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="0"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_17" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_17"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2025-08-29"/>
+					<ItemData ItemOID="date_of_birth" Value="1983-08-03"/>
+					<ItemData ItemOID="partner_hospital" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="2"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="4"/>
+					<ItemData ItemOID="electrode_type___1" Value="1"/>
+					<ItemData ItemOID="electrode_type___2" Value="0"/>
+					<ItemData ItemOID="electrode_type___3" Value="0"/>
+					<ItemData ItemOID="electrode_type___4" Value="0"/>
+					<ItemData ItemOID="electrode_count" Value="213"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="256"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="256"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="2"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="1"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_18" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_18"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2025-06-19"/>
+					<ItemData ItemOID="date_of_birth" Value="1959-07-30"/>
+					<ItemData ItemOID="partner_hospital" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="2"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="1"/>
+					<ItemData ItemOID="electrode_type___1" Value="0"/>
+					<ItemData ItemOID="electrode_type___2" Value="0"/>
+					<ItemData ItemOID="electrode_type___3" Value="1"/>
+					<ItemData ItemOID="electrode_type___4" Value="0"/>
+					<ItemData ItemOID="electrode_count" Value="139"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="1024"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="1"/>
+					<ItemData ItemOID="sedative_dosage" Value="19.3"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="256"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="1"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="1"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="1"/>
+					<ItemData ItemOID="surgery_scheduled" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="0"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="4"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_19" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_19"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2026-03-08"/>
+					<ItemData ItemOID="date_of_birth" Value="1977-06-29"/>
+					<ItemData ItemOID="partner_hospital" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="2"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="0"/>
+					<ItemData ItemOID="electrode_type___1" Value="1"/>
+					<ItemData ItemOID="electrode_type___2" Value="0"/>
+					<ItemData ItemOID="electrode_type___3" Value="0"/>
+					<ItemData ItemOID="electrode_type___4" Value="0"/>
+					<ItemData ItemOID="electrode_count" Value="45"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="1024"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="1024"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="2"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="1"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+	<SubjectData SubjectKey="SUBJ_20" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.patient_demg" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="patient_demg.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="SUBJ_20"/>
+					<ItemData ItemOID="date_of_enrollment" Value="2026-05-04"/>
+					<ItemData ItemOID="date_of_birth" Value="1971-11-21"/>
+					<ItemData ItemOID="partner_hospital" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="patient_demg.patient_demg_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="patient_demg_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.initial_diagnosis_and_surgical_parameters" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.primary_diagnosis" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="primary_diagnosis" Value="3"/>
+					<ItemData ItemOID="baseline_tremor_scale" Value="0"/>
+					<ItemData ItemOID="electrode_type___1" Value="0"/>
+					<ItemData ItemOID="electrode_type___2" Value="0"/>
+					<ItemData ItemOID="electrode_type___3" Value="1"/>
+					<ItemData ItemOID="electrode_type___4" Value="0"/>
+					<ItemData ItemOID="electrode_count" Value="121"/>
+					<ItemData ItemOID="sampling_rate_hz" Value="256"/>
+					<ItemData ItemOID="signal_storage_url" Value="Not provided"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="initial_diagnosis_and_surgical_parameters.initial_diagnosis_and_surgical_parameters_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="initial_diagnosis_and_surgical_parameters_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.surgical_monitorin_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="surgical_monitorin_arm_1">
+			<FormData FormOID="Form.impact_monitoring_and_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.pre_eeg_sedative" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pre_eeg_sedative" Value="2"/>
+					<ItemData ItemOID="sampling_rate_hz_post" Value="256"/>
+					<ItemData ItemOID="sedative_impact_observed___1" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___2" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___3" Value="0"/>
+					<ItemData ItemOID="sedative_impact_observed___4" Value="0"/>
+					<ItemData ItemOID="seizure_onset_zone_localiz" Value="2"/>
+					<ItemData ItemOID="soz_anatomical_location___1" Value="1"/>
+					<ItemData ItemOID="soz_anatomical_location___2" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___3" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___4" Value="0"/>
+					<ItemData ItemOID="soz_anatomical_location___5" Value="0"/>
+					<ItemData ItemOID="surgery_scheduled" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="impact_monitoring_and_assessment.impact_monitoring_and_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="impact_monitoring_and_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.6_month_follow_up_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="6_month_follow_up_arm_1">
+			<FormData FormOID="Form.post_op_recovery_status" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.surgical_intervention_perf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="surgical_intervention_perf" Value="1"/>
+					<ItemData ItemOID="post_op_tremor_scale" Value="4"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="post_op_recovery_status.post_op_recovery_status_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="post_op_recovery_status_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+</ClinicalData>
+</ODM>
