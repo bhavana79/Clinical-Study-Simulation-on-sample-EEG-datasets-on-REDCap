@@ -11,5 +11,3 @@ isolate entry anomalies, and flag clinical field discrepancies.
 
 Files in the rep:
 XML file for REDCap project as the project is built on free trail account. Storing the XML file that has the complete project from REDCap to archive here.
-Python scripts that generated clean mock data
-Sources for this mock data:  
